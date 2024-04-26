@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: serif;
+}
+.navbar{
+height:60px;
+}
+.navbar a{
+    color:blue;
+    font-weight: bold;
+}
+.home-logo img{
+    height: 85px;
+    width:150px;
+}
+.carasaul-container img{
+    height:660px;
+    width: 100%;
+}
+.header img{
+    height:630px;
+    width:100%;
+}
+#about{
+    margin-top: 30px;
+    height:1000px;
+    width:100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#about video{
+    height:700px;
+    /* width:900px; */
+    width: 60%;
+}
+#about h1{
+    text-align: center;
+    /* margin-top:60px; */
+    font-size:bold;
+  /* font-family:Arial, Helvetica, sans-serif; */
+}
+#about p{
+    font-size: 20px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size:15px;
+    /* font-weight:bold; */
+    font-family: serif;
+    padding-left:25px;
+}
+.card{
+    /* height:300px;
+    width: 660px; */
+    
+    border: none;
+    /* box-shadow: 2px 2px 2px grey; */
+
+}
+
+.card img{
+
+    height:300px;
+    /* width:16.5rem; */
+    width:19.5rem;
+padding-right:50px;
+
+}
+
+#service{
+    padding: 50px;
+}
+
+#contactus{
+    height:600px;
+    width:100%;
+    /* background-color:black; */
+    /* padding:50px 50px 50px 100px; */
+    
+}
+#contactus{
+    margin-top: 40px;
+    background-color:skyblue;
+    /* background-color: cadetblue; */
+    color:black;
+    font-weight: bold;
+    /* border-radius: 10px; */
+    padding-top: 20px;
+}
+.fm{
+    margin-top: 20px;
+    /* background-color: aquamarine; */
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-container{
+    height:100px;
+    width:400px;
+    display:flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+     justify-content: center; 
+    align-items: center;
+    justify-content: space-evenly; 
+    font-size:35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo-end img{
+    height:260px;
+    width:250px;
+}
+
+
+
+/* Darkmode button */
+body {
+    transition: background-color 0.5s ease;
+    font-family: Arial, sans-serif;
+}
+.dark-mode{
+    background-color: black;
+}
+
+.dark-mode-toggle {
+    position: fixed;
+    /* bottom: 20px;
+    right: 20px; */
+    bottom:10px;
+    top: 20px;
+    left:1400px;
+}
+
+.dark-mode-toggle input {
+    display: none;
+}
+
+.slider {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.slider:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(30px);
+}
+/* Modal-Login form */
+.form-container{
+    height:420px;
+    width:400px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    background-color: #2196F3;
+
+}
+input{
+    font-weight: bold;
+    color: black;
+}
+#form {
+     height:380px;
+          width:350px;
+          margin:10px 0px 0px 40px;
+          
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: center;
+           */
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 5px;
+    /* padding-top: 20px; */
+    /* padding-left: 90px; */
+  }
+  .google img{
+    height:60px;
+    width:150px;
+  }
+  @media only screen and (max-width: 600px) {
+    footer {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+
+        height: 1000px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    footer ,ft  img{
+        /* width:100%; */
+        display: flex;
+        flex-direction: column;
+        
+        /* height:900px; */
+    }
+  }

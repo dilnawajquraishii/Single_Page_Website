@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid" style="background-color:skyblue;">
+      <!-- logo -->
+      <div class="home-logo">
+        <!-- <img src="image/spotifywhitelogo.png" alt=""> -->
+        <img src="images/fltelogo.png" alt="">
+        <!-- <h2 id="spotify-text">Spotify</h2> -->
+
+      </div>
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <!-- service -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactus">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Login </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- carasaul -->
+  <section class="header">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/buidcarasaul2.avif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/buildarasaul - Copy.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/buildcarasaul3.avif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/bultcarasaul5.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="about">
+      <h1>About Us</h1>
+     
+      <video width="100%" height="500px" controls autoplay>
+        <source src="./video/gardens.mp4">
+      </video> 
+      <h1>Why Choose Us</h1>
+      <p>J&B Makelaars (formerly Expat Property Brokers) is built on the ethos of service beyond expectations. Our focus
+        has always been on quality service and working together to achieve an ideal outcome for our valued clients. We
+        aim to build our brand and positively redefine the real estate market with personal and exceptional service.
+
+        J&B Makelaars was established in 2016 by experienced international estate agent Bridgette Ball and her husband
+        Jason Ball. We wanted to establish a brand that we felt best represented our values. Over the years the business
+        has shown a natural growth in the expat property market as we have an understanding of having walked in the
+        shoes of our clients being expats ourselves.
+
+        That is why, for a period, the company was renamed Expat Property Brokers and began focusing primarily on expat
+        property. With this success, more expat agencies began targeting the expat market, positioning themselves as
+        expat specialists, and the name “Expat Property Brokers” became diluted, becoming as “an” rather than “the”
+        expat property brokerage. Hence, in 2023 we decided to change our name back to J&B Makelaars.
+
+        “We are returning to our roots as J&B Makelaars to serve expats with a specialised, personal touch,” says
+        Bridgette. “We want our clients to feel like they’ve found a true home whenever they come to us for assistance.
+        This is whether they are looking for a rental, buying a new home or selling their existing property.
+
+        “Our mission at J&B Makelaars remains the same – to provide comprehensive real estate services tailored
+        specifically for expats in the Netherlands. Our goal is to help you find your next home easily and confidently.
+        We are Your Expat Property Broker, an experienced team that understands how to handle your real estate needs as
+        an expat.”
+
+        Our keen understanding of the market and our clients’ needs allow us to craft the best estate solutions that
+        offer exceptional service to clients at affordable rates.</p>
+      <h1> What we offer</h1>
+      <p> We use sound property management procedures coupled with innovative financial and insurance products to
+        protect our client’s interests. We only take on good quality Edinburgh property that we know we can
+        manage
+        properly. It's a formula that has stood us well since 2000 with over 80% of new business coming from
+        existing client recommendation. Our people are experienced, communicative and helpful and can offer
+        advice
+        and guidance on a range of property issues.
+        Full Management ServiceTenant Finding ServiceShort Term LettingBuy to Let Investment AdvicePortfolio
+        Finance
+        and ManagementTax AdviceOverseas Landlords AdviceUpgrading and Refurbishment Project Management
+        Request Information Pack</p>
+    </div>
+  </section>
+  <!-- Service-section -->
+  <section id="service">
+    <h1 class="service-head mb-4" style="color:blue; font-weight:bold;text-align:center">Our Rental Service for Tenants
+      (Aanhuur)
+    </h1>
+    <!-- service-card -->
+    <div class="row d-flex f-direction-row justify-content-evenly">
+      <!-- card-1 -->
+      <div class="card" style="width: 18rem; border:none;">
+        <img src="images/rightsymbol.png" class="card-img-top" alt="...">
+        <!-- <i class="fa-solid fa-check"></i> -->
+        <div class="card-body">
+          <h5 class="card-title">THE PERFECT MATCH</h5>
+          <p class="card-text">Our rentals team will work with you to find the perfect home for you and your family.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- card-2 -->
+      <div class="card" style="width: 18rem;border:none;">
+        <img src="https://img.freepik.com/premium-photo/3d-icon-group-happy-people-victory-concept_585146-729.jpg?w=740"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> KNOWLEDGEABLE TEAM
+          </h5>
+          <p class="card-text"> Our team assist in finding you a home within your budget and preferred areas. They'll
+            also offer valuable insight and advice.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- card-3 -->
+      <div class="card" style="width: 18rem;border:none;">
+        <img src="images/teamviewpic.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> ATTEND VIEWINGS
+          </h5>
+          <p class="card-text"> We attend the viewings on your behalf and conduct live video calls to ensure you can
+            make an informed decision.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- card-4 -->
+      <div class="card" style="width: 18rem;border:none;">
+        <img src="images/documentimage.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> REVIEW DOCUMENTS
+          </h5>
+          <p class="card-text"> We review all contracts and ensure you are well informed when entering into the
+            agreement.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- end -->
+    </div>
+    <!-- carasaul-card-->
+
+
+    <section id="service m-5 p-5">
+
+      <h1 class="" style=" color: blue; font-weight: bold;">Our rental service includes:
+      </h1>
+      <ul class="">
+        <li>Search Assistance: Our team searches for available local properties and suggests options for your
+          consideration.
+        </li>
+        <li>Viewing Coordination: Our admin assistants schedule all viewings, whether in-person or virtual, and send you
+          convenient calendar invites.
+        </li>
+        <li>Personalised Guided Tours: Accompanied by our experienced agents, you’ll receive guided tours of rental
+          properties matching your preferences.
+        </li>
+        <li>Virtual Viewings: Can’t be in the country yet? No problem! We offer video viewings, allowing you to explore
+          properties from anywhere in the world.
+        </li>
+
+      </ul>
+      <div class="row  justify-content-between">
+        <div class="card" style="width: 17rem;border:none;">
+          <img src="images/itemflate1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;border:none;">
+          <img src="images/flateitem19.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;border:none;">
+          <img src="images/buildcarasaul3.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;border:none;">
+          <img src="images/flateitem9.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 justify-content-between">
+        <div class="card" style="width: 18rem;border:none;">
+          <img src="images/flateitem6.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;border:none;">
+          <img src="images/flateitem5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;border:none;">
+          <img src="images/flateitem4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;border:none;">
+          <img src="images/flateitem2.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactus">
+      <h1 id="contact text-align" style="color:black; text-align: center;font-weight: bold;">Contact Us</h1>
+      <div class="fm">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Contact Number</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+    </section>
+    <!-- modal-section -->
+    <section>
+      <!-- Button trigger modal -->
+      <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title  fs-5" id="exampleModalLabel">You can fill Login Form From Here </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container text-info form-container">
+                <form action="" id="form" onsubmit="return submitform()">
+                  <h1 id="login-head">Login Form</h1>
+                  <!-- ......... -->
+                  <input type="text" id="txt" placeholder="Email address" required>
+                  <input type="password" id="txt" name="" id="pass" placeholder="Password" required>
+                  <input type="password" id="txt" name="" id="confirm" placeholder="Confirm Password">
+                  <button id="sub" type="submit" onclick="submit"
+                    style="width:80px; background-color: blue;color: white; font-weight:bold; border-radius: 5px;">Submit</button>
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div
+        class="container-fluid ft mt-5 d-flex flex-row justify-content-center align-items-center pb-20px  justify-content-evenly"
+        style="height:600px;background-color:black;color: white;">
+        <div class="logo-end">
+          <!-- <img src="image/spotifywhitelogo.png" alt=""> -->
+          <img src="images/fltelogo.png" alt="">
+          <!-- <h2 id="spotify-text">Spotify</h2> -->
+        </div>
+        <ul class="d-flex flex-column">
+          <!-- <p>COMPANY</p>
+          <li>About</li>
+          <li>Jobs</li>
+          <li>For The Records</li> -->
+          <p> 99acres</p>
+          <li>Mobile Apps
+          </li>
+          <li>Our Services
+          </li>
+          Price Trends
+          <li>Post your Property
+          </li>
+          <li>Real Estate Investments
+          </li>
+          <li>Builders in India
+          </li>
+          <li>Area Converter
+          </li>
+          <li>Rent Receipt
+          </li>
+          <li>Customer Service
+          </li>
+        </ul>
+        <!-- start li-2 -->
+        <ul class="d-flex flex-column">
+          <!-- <p>COMMUNITIES</p>
+          <li>For Artists</li>
+          <li>Developers</li>
+          <li>Advertising</li>
+          <li>Investores</li>
+          <li>Vendores</li> -->
+          <p>Company
+          </p>
+          <li>About us
+          </li>
+
+          <li>Contact us
+          </li>
+          <li>Careers with us</li>
+          <li>Terms & Conditions
+          </li>
+          <li>Request Info
+          </li>
+          <li>Feedback</li>
+          <li>Report a problem
+          </li>
+          <li>Testimonials
+          </li>
+          <li>Privacy Policy
+          </li>
+
+
+          <li>Safety Guide
+          </li>
+        </ul>
+        <ul class="d-flex flex-column">
+          <p> Our Partners
+          </p>
+          <li> Brijj.com - Professional Networking
+          </li>
+          <li> Policybazaar.com - Insurance India
+          </li>
+          <li> Policybazaar.com - Insurance India
+          </li>
+          <li> Naukrigulf.com - Jobs in middle east
+          </li>
+
+          <li>x AmbitionBox.com
+          </li>
+        </ul>
+        <div class="icon-container">
+          <h2>Contact Us</h2><br>
+          <div class="fr-box">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div class="fr-box">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="fr-box">
+            <i class="twitter icon fa-brands fa-twitter" style="padding-top: 5px;"></i>
+          </div>
+          <!-- google -->
+          <div class="fr-box google">
+            <img src="images/googleplay.png" alt="">
+          </div>
+        </div>
+        <hr>
+      </div>
+      <!-- Darkmodebutton -->
+      <label class="dark-mode-toggle">
+        <input type="checkbox" id="darkModeToggle">
+        <div class="slider"></div>
+      </label>
+
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+  const darkModeToggle = document.getElementById('darkModeToggle');
+  const body = document.body;
+
+  darkModeToggle.addEventListener('change', () => {
+    body.classList.toggle('dark-mode');
+  });
+</script>
+
+</html>
